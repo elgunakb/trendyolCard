@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.container {
+  margin: 50px;
+  display: flex;
+  width: 231px;
+  height: 496px;
+  /* border: 1px solid rgb(193, 193, 193); */
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 2px 1px 6px 1px rgba(129, 129, 129, 0.55);
+  -webkit-box-shadow: 2px 1px 6px 1px rgba(129, 129, 129, 0.55);
+  -moz-box-shadow: 2px 1px 6px 1px rgba(129, 129, 129, 0.55);
+  
+}
+.card-img {
+  display: flex;
+  width: 229px;
+  height: 350px;
+  border-radius: 150px;
+}
+.product-down a {
+  display: inline;
+  font-size: 12px;
+}
+.card-info {
+  margin-top: -30px;
+  padding-left: 5px;
+}
+.price {
+  color: rgb(255, 119, 0);
+  padding-left: 5px;
+}
+.product-down {
+  margin-top: -10px;
+  padding-left: 5px;
+}
+.opportunity {
+  margin: 5px;
+  margin-top: -10px;
+}
+.icon1 {
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  width: 60px;
+}
+.icon2 {
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 60px;
+}
+.icon3 {
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  width: 60px;
+}
+.liked {
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 20px;
+  box-shadow: 2px 1px 6px 1px rgba(129, 129, 129, 0.55);
+  -webkit-box-shadow: 2px 1px 6px 1px rgba(129, 129, 129, 0.55);
+  -moz-box-shadow: 2px 1px 6px 1px rgba(129, 129, 129, 0.55);
+  border-radius: 50%;
+  padding: 4px;
+}
+
